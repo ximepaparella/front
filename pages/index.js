@@ -1,11 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
-export default function Home() {
+export default function Home({tratamientos}) {
   return (
-    <div>
-      Dashboard
+    <div className="tratamientos">
+      {tratamientos.map((tratamiento) => (
+        <div key={tratamiento.id} className="tratamiento">{tratamiento.nombre_tratamiento}</div>
+      ))}
     </div>
-  )
+  );
+}
+
+
+export async function getStaticProps() {
+  //get tratamientos from API
+  const res = await fetch('http://localhost:1337/tratamientos');
+  const tratamientos = await res.json();
+
+  return {
+    props: { tratamientos },
+  }
 }
