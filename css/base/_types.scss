@@ -1,13 +1,28 @@
 @import "./mixins";
 
+//=============================
+// ALINEACIÓN
+//=============================
+
+.--left {
+  text-align: left;
+}
+
+.--center {
+  text-align: center;
+}
+
+.--right {
+  text-align: right;
+}
 
 //=============================
 // TAMAÑOS DE TEXTO
 //=============================
 
 .--l {
-    font-size:px(36);
-    line-height: px(44);
+    font-size:px(32);
+    line-height: px(40);
 }
 
 .--m {
@@ -23,6 +38,41 @@
 .--xs {
     font-size:px(11);
     line-height:px(16);
+}
+
+//=============================
+// FONT WEIGHT
+//=============================
+.--thin {
+  font-weight: 100;
+}
+
+.--extra-light {
+  font-weight: 200;
+}
+
+.--light {
+  font-weight: 300;
+}
+
+.--regular {
+  font-weight: 400;
+}
+
+.--medium {
+  font-weight: 500;
+}
+
+.--semi-bold {
+  font-weight: 600;
+}
+
+.--bold {
+  font-weight: 700;
+}
+
+.--black {
+  font-weight: 900;
 }
 
 

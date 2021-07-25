@@ -1,0 +1,8 @@
+@import './../base/variables';
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin:$spacing-md 0;
+    justify-content: center;
+}
