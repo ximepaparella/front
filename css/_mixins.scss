@@ -1,24 +1,6 @@
 @import "variables";
 
 //=======================================
-// MIXIN FONTS
-//=======================================
-
-@mixin font-face($name, $file, $weight) {
-  @font-face {
-    font-family: "#{$name}";
-    src: url("../fonts/#{$file}.eot");
-    src: url("../fonts/#{$file}.eot?#iefix")   format("embedded-opentype"),
-         url("../fonts/#{$file}.woff")         format("woff"),
-         url("../fonts/#{$file}.ttf")          format("truetype"),
-         url("../fonts/#{$file}.svg?#webfont") format("svg");
-    font-weight: $weight;
-    font-style: normal;
-    font-display: block;
-  }
-}
-
-//=======================================
 // MIXIN COLUMNAS
 //=======================================
 
@@ -56,44 +38,7 @@
     }
   }
 }
-//=======================================
-// MIXIN DISPLAY FLEX
-//=======================================
-@mixin flex($display, $direction: null, $ejeX: null, $ejeY: null) {
-  //Sólo agregamos el "@include flex($display, $direction, $ejeX, $ejeY);"
-  @if $display == flex {
-    $display: flex;
-  } @else if $display == inline {
-    $display: inline-flex;
-  }
-  @if $ejeX == start {
-    $ejeX: flex-start;
-  } @else if $ejeX == end {
-    $ejeX: flex-end;
-  } @else if $ejeX == center {
-    $ejeX: center;
-  } @else if $ejeX == between {
-    $ejeX: space-between;
-  } @else if $ejeX == around {
-    $ejeX: space-around;
-  }
-  @if $ejeY == start {
-    $ejeY: flex-start;
-  } @else if $ejeY == end {
-    $ejeY: flex-end;
-  } @else if $ejeY == center {
-    $ejeY: center;
-  } @else if $ejeY == stretch {
-    $ejeY: stretch;
-  } @else if $ejeY == baseline {
-    $ejeY: baseline;
-  }
 
-  display: $display;
-  flex-direction: $direction;
-  justify-content: $ejeX;
-  align-items: $ejeY;
-}
 
 //=======================================
 // MIXIN TRANSFORM
