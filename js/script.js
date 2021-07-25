@@ -18,3 +18,7 @@ function addToCart() {
 function gift() {
   alert("PHacé un regalo (TEST");
 }
+
+function removeFromCart() {
+  alert("Remover del carrito (TEST");
+}

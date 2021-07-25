@@ -1,0 +1,82 @@
+@import '../base/variables';
+
+.cart {
+    margin-bottom:$spacing-xs;
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+
+        .type {
+            width: 10%;
+        }
+        .name {
+            width:30%;
+        }
+
+        .price {
+            width:20%;
+        }
+        .quantity {
+            width:20%;
+
+            input {
+                width:30%;
+            }
+        }
+        .actions {
+            width:20%;
+            font-size:px(14);
+            i {
+                font-size:12px;
+                margin-right:$spacing-2xs;
+            }
+        }
+
+        li {
+            display: flex;
+            flex-direction:row;
+            border: 1px solid $white;
+            border-radius: px(10);
+            padding: $spacing-sm;
+            margin-bottom:$spacing-xs;
+            align-items: center;
+
+            i {
+                font-size:px(18)
+            }
+
+            &.head {
+                padding-bottom:$spacing-sm;
+                margin-bottom:$spacing-sm;
+                border-color: $white;
+                text-transform: uppercase;
+                font-weight: 500;
+                background-color:$white;
+                color:$black;
+            }
+        }
+
+    
+    }
+}
+
+.cart-totals {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+
+    .totals {   
+        width:22%;
+        border-color: $white;
+        text-transform: uppercase;
+        font-weight: 500;
+        background-color:$white;
+        color:$black;
+        border-radius:px(10);
+        padding:px(13);
+    }
+}
+

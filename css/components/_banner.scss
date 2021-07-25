@@ -1,11 +1,17 @@
 .banner {
     margin: $spacing-3xl 0;
 
+    img {
+        width:100%;
+    }
+
     &.--pages {
         margin-top:0;
-        img {
-            width:100%;
-        }
+    }
+
+    &.--cart {
+        margin-top:0;
+        margin-bottom:$spacing-xl;
     }
 
     &.--shop {
