@@ -1996,7 +1996,7 @@ strong {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 1rem;
+  padding: 1rem 1rem 1rem 0;
 }
 
 .button {
