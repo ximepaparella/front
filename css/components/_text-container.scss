@@ -1,13 +1,9 @@
 .text-container {
     text-align: center;
     margin-bottom: $spacing-3xl;
-    
-    .home & {
-        margin-bottom: $spacing-3xl;
 
-        p {
-            max-width: 80%;
-        }
+    .category-grids & {
+        margin-bottom: $spacing-xl;
     }
 
     p {
