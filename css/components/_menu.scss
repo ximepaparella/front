@@ -40,20 +40,13 @@
 
             &.--active {
                 position:relative;
-                &:after {
-                    position: absolute;
-                    content: " ";
-                    width: px(140);
-                    height:px(1);
-                    right: 0;
-                    bottom: px(4);
-                    background-color: $white;
-                }
+                text-decoration: underline;
             }
 
         }
 
         .submenu {
+            margin-bottom:$spacing-md;
             .item {
                 font-size:px(15);
                 font-weight: 200;

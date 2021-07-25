@@ -1556,71 +1556,79 @@ a:hover {
   content: "\e902";
 }
 
-.icon-gift:before {
+.icon-fire:before {
   content: "\e903";
 }
 
-.icon-instagram:before {
+.icon-gift:before {
   content: "\e904";
 }
 
-.icon-left-arrow .path1:before {
+.icon-instagram:before {
   content: "\e905";
+}
+
+.icon-left-arrow .path1:before {
+  content: "\e906";
   color: #f44336;
 }
 
 .icon-left-arrow .path2:before {
-  content: "\e906";
+  content: "\e907";
   margin-left: -1em;
   color: black;
 }
 
 .icon-mail:before {
-  content: "\e907";
-}
-
-.icon-menu:before {
   content: "\e908";
 }
 
-.icon-packs:before {
+.icon-menu:before {
   content: "\e909";
 }
 
-.icon-pin:before {
+.icon-packs:before {
   content: "\e90a";
 }
 
-.icon-right-arrow .path1:before {
+.icon-pin:before {
   content: "\e90b";
+}
+
+.icon-right-arrow .path1:before {
+  content: "\e90c";
   color: #f44336;
 }
 
 .icon-right-arrow .path2:before {
-  content: "\e90c";
+  content: "\e90d";
   margin-left: -1em;
   color: black;
 }
 
 .icon-search:before {
-  content: "\e90d";
-}
-
-.icon-shop:before {
   content: "\e90e";
 }
 
-.icon-whatsapp:before {
+.icon-shop:before {
   content: "\e90f";
 }
 
-.icon-whatsapp-fill .path1:before {
+.icon-star:before {
   content: "\e910";
+}
+
+.icon-whatsapp:before {
+  content: "\e911";
+}
+
+.icon-whatsapp-fill .path1:before {
+  content: "\e912";
   color: #4caf50;
 }
 
 .icon-whatsapp-fill .path2:before {
-  content: "\e911";
+  content: "\e913";
   margin-left: -1em;
   color: #fafafa;
 }
@@ -1723,16 +1731,11 @@ strong {
 
 .sidebar-menu .menu .item.--active {
   position: relative;
+  text-decoration: underline;
 }
 
-.sidebar-menu .menu .item.--active:after {
-  position: absolute;
-  content: " ";
-  width: 8.75rem;
-  height: 0.0625rem;
-  right: 0;
-  bottom: 0.25rem;
-  background-color: #fff;
+.sidebar-menu .menu .submenu {
+  margin-bottom: 1.5rem;
 }
 
 .sidebar-menu .menu .submenu .item {
