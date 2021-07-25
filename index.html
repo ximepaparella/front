@@ -13,6 +13,8 @@
 		rel="stylesheet">
 
 	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="js/script.js"></script>
 </head>
 
 <body>
@@ -239,48 +241,50 @@
 					<!-- <a>
 						<i class="icon-search"></i>
 					</a> -->
-					<a href="https://api.whatsapp.com/send?phone=541150376028&text=Hola%2C%20quiero%20realizar%20una%20consulta" target="_blank">
+					<a href="https://api.whatsapp.com/send?phone=541150376028&text=Hola%2C%20quiero%20realizar%20una%20consulta"
+						target="_blank">
 						<i class="icon-whatsapp"></i>
 					</a>
 
 					<hr class="divider --vertical" />
-					
-					<a> 
+
+					<a onclick="openNav()">
 						<i class="icon-menu"></i>
 					</a>
 				</div>
 			</div>
 		</header>
 
-		<section class="sidebar-menu">
+		<section class="sidebar-menu" id="mySidenav">
 			<ul class="menu">
-				<li class="item --nochild">
-					<a>Home</a>
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+					<i class="icon-close"></i>
+				</a>
+
+				<li>
+					<a class="item">Home</a>
 				</li>
-				<li class="item child">
-					<span>Terapias</span>
-					<ul class="submenu">
-						<li>
-							<a> Terapias corporales</a>
-						</li>
-						<li>
-							<a> Terapias Faciales</a>
-						</li>
-					</ul>
+				<li>
+					<span class="item --child">Terapias</span>
+						<ul class="submenu">
+							<li>
+								<a class="item"> Terapias corporales</a>
+							</li>
+							<li>
+								<a class="item"> Terapias Faciales</a>
+							</li>
+						</ul>
 				</li>
 			</ul>
 
 
 			<div class="footer-actions">
-				<a>
-					<i> F </i>
-				</a>
-				<a>
-					<i> I </i>
-				</a>
-				<a>
-					<i> W </i>
-				</a>
+				<a href="https://www.facebook.com/spabelgrano" target="_blank"><i class="icon-facebook"></i></a>
+
+				<a href="https://www.instagram.com/spabelgrano/" target="_blank"><i class="icon-instagram"></i></a>
+
+				<a href="https://api.whatsapp.com/send?phone=541150376028&text=Hola%2C%20quiero%20realizar%20una%20consulta"
+					target="_blank"><i class="icon-whatsapp"></i></a>
 			</div>
 		</section>
 
@@ -289,7 +293,7 @@
 				<img src="img/slider-placeholder.png" />
 
 			</section>
-			<section class="welcome-text --center">
+			<section class="text-container --center">
 				<h1 class="title --l --thin">Bienvenidos a <span class="--light">Spa Belgrano</span></h1>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
 					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -297,8 +301,16 @@
 					leap into electronic typesetting.</p>
 			</section>
 
-			<section class="category-grids">
-
+			<section class="image-grids">
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1439209306665-700c9bca794c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?dpr=1&auto=compress,format&fit=crop&w=1199&h=871&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1488572384981-eac03dfeb6b9?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1470091688026-38b51162c8df?dpr=1&auto=compress,format&fit=crop&w=1199&h=750&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1475139450941-3b6464b2dde3?dpr=1&auto=compress,format&fit=crop&w=1199&h=673&q=80&cs=tinysrgb&crop=)"></a>
 			</section>
 
 			<section class="banner --shop">
@@ -306,9 +318,25 @@
 
 			</section>
 
-			<section class="photo-grid">
 
-			</section>
+
+			<section class="category-grids">
+				<section class="text-container --center">
+					<h1 class="title --l --thin">Conocé <span class="--light">nuestra casa</span></h1>
+				</section>
+				
+				<div class="image-grids">
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1439209306665-700c9bca794c?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?dpr=1&auto=compress,format&fit=crop&w=1199&h=871&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1488572384981-eac03dfeb6b9?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1470091688026-38b51162c8df?dpr=1&auto=compress,format&fit=crop&w=1199&h=750&q=80&cs=tinysrgb&crop=)"></a>
+					
+					<a class="item" style="background-image: url(https://images.unsplash.com/photo-1475139450941-3b6464b2dde3?dpr=1&auto=compress,format&fit=crop&w=1199&h=673&q=80&cs=tinysrgb&crop=)"></a>
+			</div>
+		</section>
 
 			<section class="contact-info">
 
