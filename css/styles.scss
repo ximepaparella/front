@@ -19,6 +19,7 @@
 @import './components/title';
 @import './components/banner';
 @import './components/footer';
+@import './components/input';
 
 
 //=======================================
@@ -39,4 +40,9 @@
 // Cart Components 
 //=======================================
 @import './components/cart';
-@import './components/input';
+
+
+//=======================================
+// Checkout Components 
+//=======================================
+@import './components/checkout';

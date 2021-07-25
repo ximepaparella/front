@@ -1523,8 +1523,8 @@ a:hover {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../../fonts/icomoon.eot");
-  src: url("../../fonts/icomoon.eot#iefix") format("embedded-opentype"), url("../../fonts/icomoon.ttf") format("truetype"), url("../../fonts/icomoon.woff") format("woff"), url("../../fonts/icomoon.svg#icomoon") format("svg");
+  src: url("http://www.spabelgrano.com/nuevo-sitio/fonts/icomoon.eot");
+  src: url("http://www.spabelgrano.com/nuevo-sitio/fonts/icomoon.eot#iefix") format("embedded-opentype"), url("http://www.spabelgrano.com/nuevo-sitio/fonts/icomoon.ttf") format("truetype"), url("http://www.spabelgrano.com/nuevo-sitio/fonts/icomoon.woff") format("woff"), url("http://www.spabelgrano.com/nuevo-sitio/fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1816,6 +1816,16 @@ strong {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+input {
+  background: #000;
+  color: #fff;
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .text-container {
@@ -2156,8 +2166,7 @@ strong {
   padding: 0.8125rem;
 }
 
-input {
-  background: #000;
-  color: #fff;
+.checkout .personal-information {
+  width: 50%;
 }
 /*# sourceMappingURL=styles.css.map */

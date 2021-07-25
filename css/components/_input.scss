@@ -1,4 +1,11 @@
+@import '../base/variables';
+
 input {
     background:$black;
     color:$white;
+    border-radius: px(4);
+    border: 1px solid $white;
+    padding: $spacing-xs;
+    width: 100%;
+    margin-bottom: $spacing-sm;
 }

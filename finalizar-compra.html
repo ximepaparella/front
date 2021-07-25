@@ -304,7 +304,7 @@
 						<li>
 							<a href="personal-styling.html" class="item"> Maquillaje</a>
 						</li>
-						
+
 					</ul>
 				</li>
 				<li>
@@ -346,62 +346,73 @@
 			</div>
 		</section>
 
-		<main class="cart">
+		<main class="checkout">
 			<section class="banner --checkout">
 				<img src="img/banner-page.png" />
 			</section>
 
 			<section class="text-container --center">
 				<h1 class="title --l --thin">Finalizar <span class="--light">Compra</span></h1>
-				<p> Vamos a pedirte tus datos personales para poder estar en contacto con vos. Completá el formulario y recibí 
-					la confirmación de la compra con el detalle. Si regalaste un Gift Certificate el mismo se enviará a tu correo y en caso de haber selecionado "enviar al agasajado", también estará disponible en la casilla del mismo.
+				<p> Vamos a pedirte tus datos personales para poder estar en contacto con vos. Completá el formulario y
+					recibí
+					la confirmación de la compra con el detalle. Si regalaste un Gift Certificate el mismo se enviará a
+					tu correo y en caso de haber selecionado "enviar al agasajado", también estará disponible en la
+					casilla del mismo.
 				</p>
 				</p>
 			</section>
 
-			<section class="cart">
-				<ul>
-					<li class="head">
-						<i class="type icon-star"> </i>
-						<h4 class="name">Producto/Servicio</h4>
-						<h4 class="price">Valor</h4>
-						<h4 class="quantity">Cantidad</h4>
-						<h4 class="actions">Acciones</h4>
-					</li>
-					<li class="item">
-						<i class="type icon-gift"></i>
-						<h4 class="name">Limpieza de cutis profunda</h4>
-						<h4 class="price">$2.500</h4>
-						<div class="quantity" ><input type="number" value="1" max="10" /></div>
-						<a class="actions" onclick="removeFromCart()"><i class="icon-close"></i> Eliminar</a>
-					</li>
-					<li class="item">
-						<i class="type icon-shop"></i>
-						<h4 class="name">Limpieza de cutis profunda</h4>
-						<h4 class="price">$2.500</h4>
-						<div class="quantity" ><input type="number" value="1" max="10" /></div>
-						<a class="actions" onclick="removeFromCart()"><i class="icon-close"></i> Eliminar</a>
-					</li>
-					<li class="item">
-						<i class="type icon-shop"></i>
-						<h4 class="name">Limpieza de cutis profunda</h4>
-						<h4 class="price">$2.500</h4>
-						<div class="quantity" ><input type="number" value="1" max="10" /></div>
-						<a class="actions" onclick="removeFromCart()"><i class="icon-close"></i> Eliminar</a>
-					</li>
-					<li class="item">
-						<i class="type icon-packs"></i>
-						<h4 class="name">Pack 5 sesiones de masajes relajantes</h4>
-						<h4 class="price">$12.500</h4>
-						<div class="quantity" ><input type="number" value="1" max="10" /></div>
-						<a class="actions" onclick="removeFromCart()"><i class="icon-close"></i> Eliminar</a>
-					</li>
-				</ul>
-			</section>
+			<section class="checkout">
+					<div class="personal-information">
+						<h2 class="title --l">Datos Personales</h2>
 
-			<section class="cart-totals">
-				<a href="finalizar-compra.html" class="button --treatment"> <i class="icon-shop"></i> Finalizar Compra</a>
-				<div class="totals"><h4>Subtotal: $22.560</h4></div>
+						<form>
+							<formgroup>
+								<input type="text" class="name" name="name" placeholder="Ingresá tu nombre" />
+							</formgroup>
+							<formgroup>
+								<input type="email" class="email" name="email" placeholder="Ingresá tu e-mail" />
+							</formgroup>
+							<formgroup>
+								<input type="text" class="email" name="email" placeholder="Ingresá tu celular" />
+							</formgroup>
+							<formgroup class="address">
+								<input type="text" class="email" name="email" placeholder="Ingresá Tu calle" />
+								<input type="text" class="email" name="email" placeholder="Ingresá Tu Numero" />
+								<input type="text" class="email" name="email" placeholder="Ingresá tu Piso/dpto" />
+								<input type="text" class="email" name="email" placeholder="Ingresá tu Código Postal" />
+							</formgroup>
+						</form>
+					</div>
+
+					<div class="payment-information">
+						<h2 class="title --l">Modo de Pago</h2>
+						<form>
+							<formgroup>
+								<input type="radio" id="mercadopago" name="mercadopago">
+								<label for="mercadopago">MercadoPago</label>
+							</formgroup>
+
+							<formgroup>
+								<input type="radio" id="mercadopago" name="mercadopago">
+								<label for="mercadopago">MercadoPago</label>
+							</formgroup>
+						</form>
+					</div>
+
+					<div class="cart-information">
+						<h2 class="title --l">Tu pedido</h2>
+					</div>
+
+					<div class="actions">
+						<a href="finalizar-compra.html" class="button --treatment"> <i class="icon-shop"></i> Finalizar Compra</a>
+						<div class="totals"><h4>Subtotal: $22.560</h4></div>
+					</div>
+				</div>
+
+
+
+
 			</section>
 
 		</main>
