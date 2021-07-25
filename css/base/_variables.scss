@@ -12,7 +12,6 @@ $rem: 0.0625rem; //1px
     @return $result;
 }
 
-
 //=======================================
 // Columnas
 //=======================================
@@ -21,13 +20,11 @@ $cant-col: 12; //Cantidad de columnas
 $col-width: 100 / $cant-col; //Ancho de columnas
 $scroll-width: px(17);
 
-
 //=======================================
 // Fonts
 //=======================================
 
 $font-default: 'Montserrat', sans-serif;
-
 
 //=======================================
 // Media Queries
@@ -37,7 +34,6 @@ $media-s:  'min-width : 22em'; // 360px
 $media-m:  'min-width: 48em'; // 768px
 $media-l:  'min-width: 64em'; // 1024px
 
-
 //=======================================
 // Calles entre columnas
 //=======================================
@@ -45,7 +41,6 @@ $media-l:  'min-width: 64em'; // 1024px
 $gap-l:  0 px(24);
 $gap-m:  0 px(16);
 $gap-xs: 0 px(8);
-
 
 //=======================================
 // Aspect ratio
@@ -57,7 +52,6 @@ $video:           calc((9 / 16)     * 100%);
 $cinema:          calc((9 / 21)     * 100%);
 $vertical-square: calc((13 / 12.19) * 100%);
 $vertical-video:  calc((13 / 8.19)  * 100%);
-
 
 //=======================================
 // Espaciados
@@ -73,12 +67,23 @@ $spacing-xl: $spacing * 5; //40px
 $spacing-2xl: $spacing * 8; //64px
 $spacing-3xl: $spacing * 10; //80px
 
-
 //=======================================
 // Colores
 //=======================================
 $black: #000;
+$white: #fff;
 
+$grey-100: #C5C5C5;
+$grey-200: #BDBDBD;
+$grey-300: #7D7D7D;
+$grey-400: #545454;
+$grey-500: #333333;
+
+$red-100: #ff0000;
+$red-500: #9d251f;
+$red-700: #631719;
+
+$green-500: #2CB742;
 
 
 //=======================================

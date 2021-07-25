@@ -1,0 +1,15 @@
+@import './variables';
+
+body {
+    background-color:$black;
+    font-size:px(15);
+}
+
+.wrapper {
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.main {
+    margin:$spacing-lg 0;
+}

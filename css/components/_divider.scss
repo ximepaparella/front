@@ -1,0 +1,9 @@
+.divider {
+    &.--vertical {
+        border-right: 1px solid $grey-100;
+        margin: 0 $spacing-sm;
+        height: px(30);
+        position: relative;
+        top: -5px;
+    }
+}

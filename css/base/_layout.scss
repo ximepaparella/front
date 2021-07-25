@@ -1,0 +1,51 @@
+@import '../base/variables';
+
+//=======================================
+// lay al 100%
+//=======================================
+[class^='lay'],
+[class*=' lay'] {
+	width: 100%;
+	padding-right: px(10);
+	padding-left: px(10);
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media ($media-s) {
+	[class^='lay'],
+	[class*=' lay'] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+@media ($media-m) {
+	[class^='lay'],
+	[class*=' lay'] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+@media ($media-l) {
+	[class^='lay'],
+	[class*=' lay'] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+//=======================================
+// lay al 100% sin paddings ni margins
+//=======================================
+.lay-full-width {
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 100%;
+}
+
+.wrapped-content {
+	max-width:1200px;
+	margin:0 auto;
+}

@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import './variables';
+@import './mixins';
 
 
 //Tener en cuenta que
@@ -187,7 +187,7 @@
 }
 
 //Valores de desk para arriba
-@media ($media-lg) {
+@media ($media-l) {
     .col-deskxl {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -222,7 +222,7 @@
     display: grid;
     grid-column-gap: $spacing-sm;
     grid-row-gap: $spacing-lg;
-    @media ($media-xl) {
+    @media ($media-l) {
         grid-column-gap: $spacing-xl;
     }
 }
@@ -335,7 +335,7 @@
     }
 }
 
-@media ($media-lg) {
+@media ($media-l) {
     //columnas de 12
     .row-gap-deskxl-12 {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
