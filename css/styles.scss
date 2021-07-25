@@ -9,7 +9,7 @@
 
 
 //=======================================
-// Components
+// Common Components 
 //=======================================
 @import './components/header';
 @import './components/menu';
@@ -22,8 +22,14 @@
 
 
 //=======================================
-// Components Home
+// Home Components 
 //=======================================
 @import './components/text-container';
 @import './components/category-grids';
 @import './components/contact-items';
+
+//=======================================
+// Treatment List Components 
+//=======================================
+@import './components/treatment';
+@import './components/button';

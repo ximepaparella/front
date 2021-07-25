@@ -1,0 +1,35 @@
+@import '../base/variables';
+
+.button {
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    &.--treatment {   
+        background-color:$grey-500;
+        color:$white;
+        font-size:15px;
+        border-radius: px(10);    
+        margin:$spacing-xs;
+        padding: px(12);
+        text-align: center;  
+        font-weight: 400;
+
+        i {
+            font-size:px(22);
+            margin-right:$spacing-xs;
+
+            &.icon-gift {
+                font-size:px(28);
+            }
+        }
+
+        &:hover {
+            background-color:$white;
+            color:$black;
+        }
+    }
+}

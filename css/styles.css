@@ -1807,7 +1807,7 @@ strong {
 
 .text-container {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 5rem;
 }
 
 .home .text-container {
@@ -1903,7 +1903,7 @@ strong {
 
 .contact-items .item {
   border: 1px solid #fff;
-  border-radius: 0.3125rem;
+  border-radius: 0.625rem;
   width: 100%;
   text-align: center;
   margin-bottom: 2rem;
@@ -1925,5 +1925,99 @@ strong {
   position: relative;
   top: 5px;
   margin-right: 0.5rem;
+}
+
+.treatment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.treatment .image {
+  width: 30%;
+}
+
+.treatment .image img {
+  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.treatment .information {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.treatment .actions {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 1rem;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.button.--treatment {
+  background-color: #333333;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 0.625rem;
+  margin: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.button.--treatment i {
+  font-size: 1.375rem;
+  margin-right: 0.5rem;
+}
+
+.button.--treatment i.icon-gift {
+  font-size: 1.75rem;
+}
+
+.button.--treatment:hover {
+  background-color: #fff;
+  color: #000;
 }
 /*# sourceMappingURL=styles.css.map */
