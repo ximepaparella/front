@@ -1,0 +1,31 @@
+.contact-items {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .item {
+            border: 1px solid $white;
+            border-radius: px(5);
+            width: 100%;
+            text-align: center;
+            margin-bottom: $spacing-lg;
+            padding: $spacing-md;
+            display: block;
+            cursor: pointer;
+            transition: 0.3s all ease-in-out;
+            font-weight: 400;
+
+            &:hover {
+                background: $white;
+                color: $black;
+            }
+
+            i {
+                font-size:px(24);
+                position:relative;
+                top:5px;
+                margin-right: $spacing-xs;
+            }
+        }
+    }
+

@@ -1,8 +1,18 @@
 .text-container {
     text-align: center;
-    margin-bottom: $spacing-2xl;
+    margin-bottom: $spacing-xl;
+
+    .home & {
+        margin-bottom: $spacing-3xl;
+
+        p {
+            max-width: 80%;
+        }
+    }
+
     p {
-        max-width: 80%;
+        max-width: 100%;
         margin:auto;
+        margin-bottom:$spacing-sm;        
     }
 }

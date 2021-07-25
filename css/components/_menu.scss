@@ -38,6 +38,19 @@
                 padding-bottom: $spacing-2xs;
             }
 
+            &.--active {
+                position:relative;
+                &:after {
+                    position: absolute;
+                    content: " ";
+                    width: px(140);
+                    height:px(1);
+                    right: 0;
+                    bottom: px(4);
+                    background-color: $white;
+                }
+            }
+
         }
 
         .submenu {

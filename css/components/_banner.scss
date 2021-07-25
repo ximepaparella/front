@@ -1,5 +1,13 @@
 .banner {
-    margin-bottom: $spacing-2xl;
+    margin: $spacing-3xl 0;
+
+    &.--pages {
+        margin-top:0;
+        img {
+            width:100%;
+        }
+    }
+
     &.--shop {
         img {
             width:100%;
