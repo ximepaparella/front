@@ -36,8 +36,7 @@
         li {
             display: flex;
             flex-direction:row;
-            border: 1px solid $white;
-            border-radius: px(10);
+            border-bottom: 1px solid $white;
             padding: $spacing-sm;
             margin-bottom:$spacing-xs;
             align-items: center;
@@ -52,8 +51,6 @@
                 border-color: $white;
                 text-transform: uppercase;
                 font-weight: 500;
-                background-color:$white;
-                color:$black;
             }
         }
 
@@ -73,9 +70,7 @@
         border-color: $white;
         text-transform: uppercase;
         font-weight: 500;
-        background-color:$white;
-        color:$black;
-        border-radius:px(10);
+        color:$white;
         padding:px(13);
     }
 }
